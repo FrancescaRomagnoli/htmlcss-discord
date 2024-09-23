@@ -47,7 +47,7 @@ body {
 .container {
   margin: 5px auto;
   padding: 0 0px;
-  width: 1000px;
+  width: 1080px;
   max-width: 100%;
 }
 
@@ -70,19 +70,20 @@ a:visited {
 .page-header-background {
   background-color: #255ee9;
   color: white;
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
 }
 
 .page-header {
-  border: 1px dashed black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 0.9rem;
 
   /* debug */
-  /* background-color: #ff7d00ff; */
+  /* border: 1px dashed black;
+  background-color: #ff7d00ff; */
 }
 
 .header-logo,
@@ -105,12 +106,18 @@ a:visited {
 .header-logo,
 .header-login,
 .header-nav {
-  border: 1px dashed black;
+  display: flex;
+  align-items: center;
   padding: 5px;
+  font-weight: 500;
+
+  /* debug
+  border: 1px dashed black; */
 }
 
 .link-item {
   display: inline-block;
+  padding: 0 15px;
 }
 
 /* # MAIN */
