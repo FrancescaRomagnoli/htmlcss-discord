@@ -218,11 +218,12 @@ h1 {
 }
 
 div > h2 {
-  color: magenta;
+  font-size: 2rem;
+  padding-bottom: 30px;
 }
 
 div > p {
-  color: magenta;
+  /* color: magenta; */
 }
 
 /* odd section */
