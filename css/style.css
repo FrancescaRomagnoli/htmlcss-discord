@@ -97,7 +97,7 @@ li {
 
 h1 {
   padding: 20px 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .section-small-content > p {
@@ -199,6 +199,11 @@ div > p {
 .section-odd > .section-content {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.wave,
+.odd {
+  display: flex;
 }
 
 /* big section */
