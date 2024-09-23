@@ -150,9 +150,9 @@ h1 {
 /* regular section */
 
 .section-regular {
-  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 .section-content {
@@ -180,6 +180,13 @@ div > h2 {
 
 div > p {
   /* color: magenta; */
+}
+
+.wave {
+  min-width: 100%;
+  opacity: 0.03;
+  display: flex;
+  padding-top: 10px;
 }
 
 /* odd section */
