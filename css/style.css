@@ -262,8 +262,17 @@ h4 {
   padding-bottom: 15px;
 }
 
-.language-selection {
+.language-dd {
+  display: flex;
   padding: 20px 0;
+}
+
+.language-dd > img {
+  max-height: 20px;
+}
+
+.language-selection {
+  padding: 0 5px;
 }
 
 .footer-top-item > ul {
