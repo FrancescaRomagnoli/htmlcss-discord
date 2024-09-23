@@ -31,7 +31,18 @@
   background-color: lightgreen;
 } */
 
+main,
+footer {
+  display: none;
+}
+
 /* # UTILS */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .container {
   margin: 5px auto;
@@ -44,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: white;
+}
+
 .container-small {
   width: 800px;
   max-width: 100%;
@@ -53,18 +68,21 @@ a {
 /* HEADER */
 
 .page-header-background {
-  background-color: #78290f;
+  background-color: #255ee9;
+  color: white;
   height: 50px;
   display: flex;
   align-items: center;
 }
 
 .page-header {
-  background-color: #ff7d00ff;
   border: 1px dashed black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* debug */
+  /* background-color: #ff7d00ff; */
 }
 
 .header-logo,
